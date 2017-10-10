@@ -1,0 +1,46 @@
+#title
+{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 15px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#navigation ul
+{
+    background-color: black;
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#navigation li
+{
+    float: none;
+    display: inline;
+    margin: 0 1.15em;
+}
+#navigation li a
+{
+    float: none;
+    display: inline-block;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#navigation li a:hover
+{
+    color: #87b8ff;
+}
+
+#navigation ul .active a
+{
+    font-weight: bolder;
+}
