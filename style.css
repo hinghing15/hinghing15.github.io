@@ -1,6 +1,7 @@
 #title
 {
     font-family: 'Raleway', sans-serif;
+    color: white;
     letter-spacing: 15px;
     font-size: 15px;
     text-align: center;
@@ -8,7 +9,7 @@
 
 #navigation ul
 {
-    background-color: black;
+    background-color: rgba(0,0,0, .7);
     overflow: hidden;
     list-style-type: none;
     padding: 0;
@@ -43,4 +44,10 @@
 #navigation ul .active a
 {
     font-weight: bolder;
+}
+
+body{
+   background-image:url("crane.jpg");
+   background-size:cover;
+   background-repeat:no-repeat;
 }
