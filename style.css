@@ -100,3 +100,33 @@
     padding-right: 200px;
     padding-top: 20px;
 }
+
+
+.thumbnail {
+    max-height: 200px;
+    padding:50px 50px;
+}
+
+.lightbox {
+	display: none;
+
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	outline: none;
+
+	display: block;
+}
