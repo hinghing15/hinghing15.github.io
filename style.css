@@ -1,9 +1,10 @@
 #title
 {
-    font-family: 'Raleway', sans-serif;
+    background-color:rgba(0,0,0, .7);
+    font-family: 'Alegreya Sans SC', sans-serif;
     color: white;
     letter-spacing: 15px;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -46,8 +47,22 @@
     font-weight: bolder;
 }
 
-body{
-   background-image:url("crane.jpg");
-   background-size:cover;
-   background-repeat:no-repeat;
+body
+{
+   background-image:url("./Assets/crane.jpg");
+
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#about
+{
+    width: 1100px;
+    background-color: rgba(0,0,0, .7);
+    margin: 300px auto;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
 }
