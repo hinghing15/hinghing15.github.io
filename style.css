@@ -102,9 +102,22 @@
 }
 
 
-.thumbnail {
+#pictures
+{
+    text-align: center;
+}
+.thumbnail 
+{
     max-height: 200px;
-    padding:50px 50px;
+    padding:10px 10px;
+}
+.thumbnail a
+{
+    text-decoration: none;
+}
+.thumbnail:hover
+{
+    opacity: .5;
 }
 
 .lightbox {
@@ -130,3 +143,5 @@
 
 	display: block;
 }
+
+
