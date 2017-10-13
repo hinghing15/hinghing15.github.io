@@ -71,7 +71,7 @@
     background-size: 1000px auto;
     background-position: center 50px;
     background-repeat: no-repeat;
-    margin: 450px 100px;
+    margin: 450px 0px;
 }
 
 #fgeneral #about
@@ -83,6 +83,7 @@
     font-family: 'Raleway', sans-serif;
     text-align:left;
     text-wrap:normal;
+    font-size: 20px;
 }
 
 #fgeneral img
@@ -100,9 +101,13 @@
 }
 
 
-#pictures
+#artwork
 {
-    text-align: center;
+    text-align: left;
+    width: 1000px;
+    margin: 0 auto;
+
+    font-family: 'Raleway', sans-serif;
 }
 .thumbnail 
 {
@@ -111,16 +116,13 @@
     max-width: 400px;
     padding:10px 10px;
 }
-.thumbnail a
-{
-    text-decoration: none;
-}
+
 .thumbnail:hover
 {
     opacity: .5;
 }
 
-.lightbox 
+.modal 
 {
 	display: none;
 
@@ -133,14 +135,14 @@
 	background: rgba(0,0,0,0.8);
 }
 
-.lightbox img 
+.modal img 
 {
 	max-width: 100%;
 	max-height: 90%;
 	margin-top: 2%;
 }
 
-.lightbox:target 
+.modal:target 
 {
 	outline: none;
 	display: block;
@@ -149,7 +151,7 @@
 .games
 {
     width: 1000px;
-    height: 1000px;
+    height: 700px;
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
 }
