@@ -55,9 +55,9 @@
 
 #front
 {
-   background-image:url("./Assets/crane.jpg");
+   background-image:url("./Assets/index/crane1.jpg");
 
-   background-position: center 25px;
+   background-position: center 100px;
    background-repeat: no-repeat;
    background-size: 1000px auto;
 
@@ -67,30 +67,36 @@
 
 #fgeneral
 {
-    width: auto;
-    height: 1000px;
-    background-color: white;
-    margin: 400px auto;
-    color: black;
-    font-family: 'Raleway', sans-serif;
-    text-align:left;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 20px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(256,256,256,0.4) 100%), url("./Assets/index/lake1.jpg");
+    background-size: 1000px auto;
+    background-position: center 50px;
+    background-repeat: no-repeat;
+    margin: 450px 100px;
 }
 
-#general
+#fgeneral #about
 {
-    width: auto;
-    height: 1000px;
-    background-color: white;
-    margin: 0px auto;
+    width:975px;
+    margin:0 auto; 
+    height: 500px;
     color: black;
     font-family: 'Raleway', sans-serif;
     text-align:left;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 20px;
+    text-wrap:normal;
+}
+
+#fgeneral img
+{
+    height: 350px;
+}
+#res
+{
+    width: 700px;
+    height: 1000px;
+    margin: 0 auto;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-align:left;
 }
 
 
@@ -140,16 +146,14 @@
 
 .games
 {
-    padding: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(256,256,256,0.4) 100%);
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
 }
 .games img
 {
-    max-width: 40%;
-    background-color: black;
+    max-width: 350px;
     padding: 5px;
 }
 
