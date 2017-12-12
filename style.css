@@ -149,7 +149,7 @@
 	display: block;
 }
 
-.games
+.dev
 {
     width: 1000px;
     height: 700px;
@@ -157,11 +157,11 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.gameart
+.devart
 {
     float: left;
 }
-.games h2 img
+.dev h2 img, iframe
 {
     border-radius:25px;
     max-width: 400px;
